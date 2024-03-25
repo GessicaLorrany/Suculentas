@@ -1,0 +1,135 @@
+* {
+    margin: 0; /* Zera a margem de todo o site */
+    padding: 0; /* Zera o padding de todo o site */
+    box-sizing: border-box; /* Faz o tamanho ser contado até a borda */
+    text-align: center;
+}
+
+.grid .col1 {
+    height: 1080px;
+    width: 70%; /*Largura de 70% do tamanho da tela*/
+    background-color:#75d99d ;
+    float: left; /*Faz o block ocupar somente o seu espaço e ser alinhado a esquerda*/
+    padding: 20px; /*Cria um padding interno*/
+}
+
+.grid .aside {
+    height: 1080px;
+    width: 30%;
+    background-color: #4eb27a ;
+    float: left;
+    padding: 20px;
+}
+
+nav {
+    background-color: #278c56  ;
+    border-start-end-radius: 10px;
+    border-start-start-radius: 10px;
+    height: 64px;
+    width: 100%;
+}
+
+
+.menus{
+    float: left;
+    padding: 20px;
+}
+
+
+img {
+    width: 70%;
+    height: 70%;
+}
+
+p{
+    color: black;
+    font-family: monospace;
+    text-align: left;
+    font-size: large;
+}
+
+.li_menu{
+    color: black;
+    font-family: monospace;
+    float: left;
+    text-align: left;
+    font-size: 25px;
+    transition: all 350ms ease-in-out;
+    position: relative;
+    top: 10px;
+    transform: scale(0.99);
+}
+
+.li_menu:hover{
+    transition: all 350ms ease-in-out;
+    color: #75d99d;
+    cursor: pointer;
+    transform: scale(1.0);
+}
+ 
+.menu_div{
+    height: 64px;
+    float: left;
+    transition: all 350ms ease-in-out;
+    margin-left: 5px;
+}
+.menu_div:hover{
+    background-color: black;
+    transition: all 350ms ease-in-out;
+    cursor: pointer;
+}
+
+ #ol_menu{
+    list-style: none;
+    display: inline;
+ }
+
+ img {
+    border-radius: 15px;
+    transform: scale(0.99);
+    transition: all 350ms ease-in-out;
+ }
+
+ img:hover{
+    filter: drop-shadow(6px 6px #ffff);
+    transform: scale(1.0);
+    transition: all 350ms ease-in-out;
+ }
+
+ footer{
+    background-color: #006533;
+    width: 100%;
+    padding-bottom: 10px;
+ }
+
+ .p_footer{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+ }
+
+ .img_div{
+    float: left;
+    margin-bottom: 10px ;
+    margin-top: 10px;
+ }
+
+ .img_galeria{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+ }
+
+ .logo{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    left: 550px;
+    bottom: 3px;
+    margin-left: 0px;
+ }
+
+ .logo:hover{
+    filter: none;
+    transform: none;
+ }
